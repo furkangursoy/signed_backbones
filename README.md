@@ -37,7 +37,7 @@ See _examples/KarateViz.ipynb_ for visualizations of the original Karate network
 
 If you find this software useful in your work, please cite:
 
-Furkan Gursoy and Bertan Badur. (2020). ["Extracting the signed backbone of intrinsically dense weighted networks."](https://https://arxiv.org/abs/2012.05216) (2020).
+Furkan Gursoy and Bertan Badur. (2020). ["Extracting the signed backbone of intrinsically dense weighted networks."](https://arxiv.org/abs/2012.05216) (2020).
 
 
 
