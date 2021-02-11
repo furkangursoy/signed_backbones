@@ -1,5 +1,7 @@
 # Signed Backbone Extraction
 
+This Python package provides tools to extract the signed backbones of intrinsically dense weighted networks.
+
 ## Dependecies
 
 1. [numpy](https://numpy.org/)
