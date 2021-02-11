@@ -1,5 +1,5 @@
 """ Python package for extracting signed backbones of intrinsically dense weighted networks."""
-__version__ = '0.7.0'
+__version__ = '0.9.5'
 
 import warnings
 warnings.filterwarnings("ignore")
