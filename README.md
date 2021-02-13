@@ -43,7 +43,7 @@ Furkan Gursoy and Bertan Badur. (2020). ["Extracting the signed backbone of intr
 
 ## Contributing
 
-Please feel free to open an issue to report any bugs, requests for changes, or other contribution.
+Please feel free to open an issue for bug reports, change requests, or other contributions.
 
 
 ## License
