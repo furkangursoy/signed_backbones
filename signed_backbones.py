@@ -11,7 +11,7 @@ def extract(edgelist, directed = True, significance_threshold = 3.291, vigor_thr
 	
     Signed backbones are extracted based on the significance filter and vigor filter as described in the following paper. Please cite it if you find this software useful in your work.
             
-    Furkan Gursoy and Bertan Badur. "Extracting the signed backbone of intrinsically dense weighted networks." (2020). https://https://arxiv.org/abs/2012.05216
+    Furkan Gursoy and Bertan Badur. "Extracting the signed backbone of intrinsically dense weighted networks." (2020). https://arxiv.org/abs/2012.05216
     
     Parameters
     ----------
