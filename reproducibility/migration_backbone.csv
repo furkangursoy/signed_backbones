@@ -1,0 +1,472 @@
+source,target,sign
+California,Alabama,-1
+Georgia,Alabama,1
+Kentucky,Alabama,1
+Louisiana,Alabama,1
+Maryland,Alabama,-1
+Massachusetts,Alabama,-1
+Mississippi,Alabama,1
+New York,Alabama,-1
+Oregon,Alabama,-1
+Tennessee,Alabama,1
+Hawaii,Alaska,1
+Nevada,Alaska,1
+Oregon,Alaska,1
+Washington,Alaska,1
+California,Arizona,1
+Connecticut,Arizona,-1
+District of Columbia ,Arizona,-1
+Florida,Arizona,-1
+Georgia,Arizona,-1
+Kentucky,Arizona,-1
+Maryland,Arizona,-1
+Massachusetts,Arizona,-1
+Nevada,Arizona,1
+New Jersey,Arizona,-1
+New Mexico,Arizona,1
+New York,Arizona,-1
+Oregon,Arizona,1
+Pennsylvania,Arizona,-1
+South Carolina,Arizona,-1
+Tennessee,Arizona,-1
+Washington,Arizona,1
+West Virginia,Arizona,-1
+Wisconsin,Arizona,1
+Louisiana,Arkansas,1
+Mississippi,Arkansas,1
+Missouri,Arkansas,1
+New Jersey,Arkansas,-1
+New York,Arkansas,-1
+Oklahoma,Arkansas,1
+Tennessee,Arkansas,1
+Texas,Arkansas,1
+Arizona,California,1
+Hawaii,California,1
+Kentucky,California,-1
+Mississippi,California,-1
+Nevada,California,1
+New Hampshire,California,-1
+Oregon,California,1
+South Carolina,California,-1
+Washington,California,1
+Montana,Colorado,1
+Nebraska,Colorado,1
+New Jersey,Colorado,-1
+New Mexico,Colorado,1
+New York,Colorado,-1
+Ohio,Colorado,-1
+South Dakota,Colorado,1
+Tennessee,Colorado,-1
+Wyoming,Colorado,1
+California,Connecticut,-1
+Maine,Connecticut,1
+Massachusetts,Connecticut,1
+Missouri,Connecticut,-1
+New York,Connecticut,1
+Rhode Island,Connecticut,1
+California,Delaware,-1
+Maryland,Delaware,1
+New Jersey,Delaware,1
+Pennsylvania,Delaware,1
+Maryland,District of Columbia ,1
+Virginia,District of Columbia ,1
+Arizona,Florida,-1
+California,Florida,-1
+District of Columbia ,Florida,-1
+Idaho,Florida,-1
+Kansas,Florida,-1
+Mississippi,Florida,-1
+New Mexico,Florida,-1
+Oklahoma,Florida,-1
+Oregon,Florida,-1
+Utah,Florida,-1
+Washington,Florida,-1
+Alabama,Georgia,1
+Arizona,Georgia,-1
+Colorado,Georgia,-1
+Florida,Georgia,1
+Idaho,Georgia,-1
+Kansas,Georgia,-1
+Massachusetts,Georgia,-1
+Minnesota,Georgia,-1
+Missouri,Georgia,-1
+Nevada,Georgia,-1
+Oregon,Georgia,-1
+Pennsylvania,Georgia,-1
+South Carolina,Georgia,1
+Tennessee,Georgia,1
+Washington,Georgia,-1
+Alaska,Hawaii,1
+California,Hawaii,1
+Colorado,Hawaii,1
+New Jersey,Hawaii,-1
+Virginia,Hawaii,1
+Washington,Hawaii,1
+Arizona,Idaho,1
+California,Idaho,1
+Florida,Idaho,-1
+Georgia,Idaho,-1
+Illinois,Idaho,-1
+Maryland,Idaho,-1
+Massachusetts,Idaho,-1
+Montana,Idaho,1
+Nevada,Idaho,1
+New Jersey,Idaho,-1
+Ohio,Idaho,-1
+Oregon,Idaho,1
+Utah,Idaho,1
+Washington,Idaho,1
+Indiana,Illinois,1
+Iowa,Illinois,1
+Michigan,Illinois,1
+Missouri,Illinois,1
+Oregon,Illinois,-1
+Washington,Illinois,-1
+Wisconsin,Illinois,1
+California,Indiana,-1
+Illinois,Indiana,1
+Kentucky,Indiana,1
+Massachusetts,Indiana,-1
+Michigan,Indiana,1
+New York,Indiana,-1
+Ohio,Indiana,1
+Washington,Indiana,-1
+Colorado,Iowa,1
+Florida,Iowa,-1
+Georgia,Iowa,-1
+Illinois,Iowa,1
+Kansas,Iowa,1
+Maryland,Iowa,-1
+Minnesota,Iowa,1
+Missouri,Iowa,1
+Nebraska,Iowa,1
+New Jersey,Iowa,-1
+New York,Iowa,-1
+Pennsylvania,Iowa,-1
+South Dakota,Iowa,1
+Virginia,Iowa,-1
+Wisconsin,Iowa,1
+Iowa,Kansas,1
+Missouri,Kansas,1
+Nebraska,Kansas,1
+New Jersey,Kansas,-1
+New York,Kansas,-1
+Oklahoma,Kansas,1
+California,Kentucky,-1
+Idaho,Kentucky,1
+Indiana,Kentucky,1
+Kansas,Kentucky,1
+Massachusetts,Kentucky,-1
+New Jersey,Kentucky,-1
+New York,Kentucky,-1
+Ohio,Kentucky,1
+Tennessee,Kentucky,1
+West Virginia,Kentucky,1
+Georgia,Louisiana,1
+Kentucky,Louisiana,1
+Mississippi,Louisiana,1
+New York,Louisiana,-1
+Texas,Louisiana,1
+California,Maine,-1
+Connecticut,Maine,1
+Massachusetts,Maine,1
+New Hampshire,Maine,1
+Vermont,Maine,1
+California,Maryland,-1
+Colorado,Maryland,-1
+Delaware,Maryland,1
+District of Columbia ,Maryland,1
+Illinois,Maryland,-1
+Minnesota,Maryland,-1
+Missouri,Maryland,-1
+Nevada,Maryland,-1
+Pennsylvania,Maryland,1
+Virginia,Maryland,1
+Washington,Maryland,-1
+West Virginia,Maryland,1
+Colorado,Massachusetts,-1
+Connecticut,Massachusetts,1
+Maine,Massachusetts,1
+New Hampshire,Massachusetts,1
+New York,Massachusetts,1
+Ohio,Massachusetts,-1
+Rhode Island,Massachusetts,1
+Texas,Massachusetts,-1
+Vermont,Massachusetts,1
+Georgia,Michigan,-1
+Indiana,Michigan,1
+Ohio,Michigan,1
+Georgia,Minnesota,-1
+Illinois,Minnesota,1
+Iowa,Minnesota,1
+Nebraska,Minnesota,1
+New Jersey,Minnesota,-1
+North Dakota,Minnesota,1
+South Carolina,Minnesota,-1
+South Dakota,Minnesota,1
+Virginia,Minnesota,-1
+Wisconsin,Minnesota,1
+Alabama,Mississippi,1
+California,Mississippi,-1
+Indiana,Mississippi,1
+Louisiana,Mississippi,1
+New Jersey,Mississippi,-1
+New York,Mississippi,-1
+Tennessee,Mississippi,1
+Washington,Mississippi,-1
+Arkansas,Missouri,1
+Colorado,Missouri,1
+Connecticut,Missouri,-1
+Georgia,Missouri,-1
+Illinois,Missouri,1
+Iowa,Missouri,1
+Kansas,Missouri,1
+Maryland,Missouri,-1
+Massachusetts,Missouri,-1
+New Jersey,Missouri,-1
+New York,Missouri,-1
+Oklahoma,Missouri,1
+Oregon,Missouri,-1
+Pennsylvania,Missouri,-1
+Alaska,Montana,1
+Colorado,Montana,1
+Idaho,Montana,1
+Minnesota,Montana,1
+New York,Montana,-1
+North Dakota,Montana,1
+Oregon,Montana,1
+Washington,Montana,1
+Wyoming,Montana,1
+Colorado,Nebraska,1
+Florida,Nebraska,-1
+Iowa,Nebraska,1
+Kansas,Nebraska,1
+Minnesota,Nebraska,1
+Missouri,Nebraska,1
+New York,Nebraska,-1
+South Dakota,Nebraska,1
+Wyoming,Nebraska,1
+Arizona,Nevada,1
+California,Nevada,1
+Florida,Nevada,-1
+Hawaii,Nevada,1
+Maryland,Nevada,-1
+New York,Nevada,-1
+North Carolina,Nevada,-1
+Pennsylvania,Nevada,-1
+Utah,Nevada,1
+Virginia,Nevada,-1
+California,New Hampshire,-1
+Illinois,New Hampshire,-1
+Maine,New Hampshire,1
+Massachusetts,New Hampshire,1
+Rhode Island,New Hampshire,1
+Texas,New Hampshire,-1
+Vermont,New Hampshire,1
+Alabama,New Jersey,-1
+Colorado,New Jersey,-1
+Georgia,New Jersey,-1
+Illinois,New Jersey,-1
+Indiana,New Jersey,-1
+Kansas,New Jersey,-1
+Kentucky,New Jersey,-1
+Michigan,New Jersey,-1
+Minnesota,New Jersey,-1
+Missouri,New Jersey,-1
+New Mexico,New Jersey,-1
+New York,New Jersey,1
+Oklahoma,New Jersey,-1
+Oregon,New Jersey,-1
+Pennsylvania,New Jersey,1
+Tennessee,New Jersey,-1
+Utah,New Jersey,-1
+Virginia,New Jersey,-1
+Washington,New Jersey,-1
+Arizona,New Mexico,1
+Colorado,New Mexico,1
+New York,New Mexico,-1
+Oklahoma,New Mexico,1
+Texas,New Mexico,1
+Arkansas,New York,-1
+Connecticut,New York,1
+Indiana,New York,-1
+Kentucky,New York,-1
+Massachusetts,New York,1
+Minnesota,New York,-1
+Mississippi,New York,-1
+Missouri,New York,-1
+New Jersey,New York,1
+Oregon,New York,-1
+Pennsylvania,New York,1
+Utah,New York,-1
+Vermont,New York,1
+Washington,New York,-1
+Arizona,North Carolina,-1
+Idaho,North Carolina,-1
+Illinois,North Carolina,-1
+Missouri,North Carolina,-1
+Nevada,North Carolina,-1
+South Carolina,North Carolina,1
+Virginia,North Carolina,1
+West Virginia,North Carolina,1
+Minnesota,North Dakota,1
+Montana,North Dakota,1
+New Mexico,North Dakota,1
+Oklahoma,North Dakota,1
+South Dakota,North Dakota,1
+California,Ohio,-1
+Colorado,Ohio,-1
+Indiana,Ohio,1
+Kentucky,Ohio,1
+Michigan,Ohio,1
+Oklahoma,Ohio,-1
+Pennsylvania,Ohio,1
+Washington,Ohio,-1
+West Virginia,Ohio,1
+Arkansas,Oklahoma,1
+Connecticut,Oklahoma,-1
+Kansas,Oklahoma,1
+Missouri,Oklahoma,1
+New Jersey,Oklahoma,-1
+New York,Oklahoma,-1
+North Carolina,Oklahoma,-1
+Pennsylvania,Oklahoma,-1
+Texas,Oklahoma,1
+Alaska,Oregon,1
+Arizona,Oregon,1
+California,Oregon,1
+Connecticut,Oregon,-1
+Florida,Oregon,-1
+Georgia,Oregon,-1
+Hawaii,Oregon,1
+Idaho,Oregon,1
+Illinois,Oregon,-1
+Maryland,Oregon,-1
+Missouri,Oregon,-1
+Nevada,Oregon,1
+New Jersey,Oregon,-1
+New York,Oregon,-1
+Ohio,Oregon,-1
+Pennsylvania,Oregon,-1
+Tennessee,Oregon,-1
+Virginia,Oregon,-1
+Washington,Oregon,1
+California,Pennsylvania,-1
+Delaware,Pennsylvania,1
+Idaho,Pennsylvania,-1
+Illinois,Pennsylvania,-1
+Iowa,Pennsylvania,-1
+Kentucky,Pennsylvania,-1
+Louisiana,Pennsylvania,-1
+Maryland,Pennsylvania,1
+Missouri,Pennsylvania,-1
+Nevada,Pennsylvania,-1
+New Jersey,Pennsylvania,1
+New York,Pennsylvania,1
+Oregon,Pennsylvania,-1
+Tennessee,Pennsylvania,-1
+Washington,Pennsylvania,-1
+West Virginia,Pennsylvania,1
+Connecticut,Rhode Island,1
+Maine,Rhode Island,1
+Massachusetts,Rhode Island,1
+Arizona,South Carolina,-1
+Colorado,South Carolina,-1
+Connecticut,South Carolina,1
+Georgia,South Carolina,1
+Illinois,South Carolina,-1
+Minnesota,South Carolina,-1
+North Carolina,South Carolina,1
+Oklahoma,South Carolina,-1
+Oregon,South Carolina,-1
+Texas,South Carolina,-1
+Iowa,South Dakota,1
+Minnesota,South Dakota,1
+Nebraska,South Dakota,1
+North Dakota,South Dakota,1
+Wyoming,South Dakota,1
+Alabama,Tennessee,1
+Arkansas,Tennessee,1
+California,Tennessee,-1
+Georgia,Tennessee,1
+Kentucky,Tennessee,1
+Maryland,Tennessee,-1
+Minnesota,Tennessee,-1
+Mississippi,Tennessee,1
+New Jersey,Tennessee,-1
+New York,Tennessee,-1
+Pennsylvania,Tennessee,-1
+Arkansas,Texas,1
+Connecticut,Texas,-1
+District of Columbia ,Texas,-1
+Kentucky,Texas,-1
+Louisiana,Texas,1
+Massachusetts,Texas,-1
+New Hampshire,Texas,-1
+New Jersey,Texas,-1
+New Mexico,Texas,1
+Oklahoma,Texas,1
+Pennsylvania,Texas,-1
+West Virginia,Texas,-1
+Arizona,Utah,1
+Florida,Utah,-1
+Hawaii,Utah,1
+Idaho,Utah,1
+Montana,Utah,1
+Nevada,Utah,1
+New Jersey,Utah,-1
+North Carolina,Utah,-1
+Oregon,Utah,1
+Washington,Utah,1
+Wyoming,Utah,1
+Connecticut,Vermont,1
+Massachusetts,Vermont,1
+New Hampshire,Vermont,1
+New York,Vermont,1
+District of Columbia ,Virginia,1
+Idaho,Virginia,-1
+Indiana,Virginia,-1
+Maryland,Virginia,1
+North Carolina,Virginia,1
+Oregon,Virginia,-1
+Alabama,Washington,-1
+Alaska,Washington,1
+Arizona,Washington,1
+California,Washington,1
+Florida,Washington,-1
+Idaho,Washington,1
+Illinois,Washington,-1
+Indiana,Washington,-1
+Kentucky,Washington,-1
+Mississippi,Washington,-1
+Missouri,Washington,-1
+Montana,Washington,1
+New York,Washington,-1
+Ohio,Washington,-1
+Oregon,Washington,1
+Pennsylvania,Washington,-1
+South Carolina,Washington,-1
+Tennessee,Washington,-1
+Utah,Washington,1
+California,West Virginia,-1
+Maryland,West Virginia,1
+New York,West Virginia,-1
+Ohio,West Virginia,1
+Pennsylvania,West Virginia,1
+South Carolina,West Virginia,1
+Tennessee,West Virginia,1
+Texas,West Virginia,-1
+Virginia,West Virginia,1
+Illinois,Wisconsin,1
+Iowa,Wisconsin,1
+Maryland,Wisconsin,-1
+Michigan,Wisconsin,1
+Minnesota,Wisconsin,1
+New Jersey,Wisconsin,-1
+New York,Wisconsin,-1
+Virginia,Wisconsin,-1
+Colorado,Wyoming,1
+Montana,Wyoming,1
+Nebraska,Wyoming,1
+North Dakota,Wyoming,1
+South Dakota,Wyoming,1

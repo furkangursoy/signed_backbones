@@ -1,5 +1,5 @@
 """ Python package for extracting signed backbones of intrinsically dense weighted networks."""
-__version__ = '0.91.0'
+__version__ = '0.91.3'
 
 import warnings
 warnings.filterwarnings("ignore")
@@ -196,14 +196,21 @@ def __calculateStatistics(edgelist, max_iteration, precision):
 
 	edgedf['W..'] = edgedf['Wij'].sum()
 	
+	edgedf['Pij'] = (edgedf['Wi.'] * edgedf['W.j']) / (edgedf['W..'])
+
     #prepare the matrix for passing to getNullMatrix
 	nodes = np.unique(edgedf[['i', 'j']]) # list of nodes
 	adj = pd.DataFrame(.0, index=nodes, columns=nodes) # create an empty adjacency matrix
 	f = adj.index.get_indexer # to fill in adjacency matrix values in the next line
 	adj.values[f(edgedf.i), f(edgedf.j)] = edgedf.Wij.values
 
+
+  #prepare the matrix for passing to getNullMatrix
+	pri = pd.DataFrame(.0, index=nodes, columns=nodes) # create an empty adjacency matrix
+	f = adj.index.get_indexer # to fill in adjacency matrix values in the next line
+	pri.values[f(edgedf.i), f(edgedf.j)] = edgedf.Pij.values
 	edgedf = pd.merge(edgedf, 
-			pd.DataFrame(__getNullMatrix(adj.to_numpy(), max_iteration, precision), index=adj.index, columns=adj.columns).unstack().reset_index(),
+			pd.DataFrame(__getNullMatrix(adj.to_numpy(), pri.to_numpy(), max_iteration, precision), index=adj.index, columns=adj.columns).unstack().reset_index(),
 			 left_on = ['i', 'j'], right_on = ['level_1', 'level_0'], how = 'left').rename(columns={0:'Nij'})
     
 
@@ -223,29 +230,27 @@ def __calculateStatistics(edgelist, max_iteration, precision):
 	return edgedf
 
 
-def __getNullMatrix(matrix, max_iteration, precision):
-		
-	n = len(matrix) # number of nodes
+def __getNullMatrix(wmatrix, pmatrix, max_iteration, precision):
+	n = len(wmatrix) # number of nodes
 
-	marginal_row = np.sum(matrix, axis = 1) # row totals
-	marginal_column = np.sum(matrix, axis = 0) # column totals
-
+	marginal_row = np.sum(wmatrix, axis = 1) # row totals
+	marginal_column = np.sum(wmatrix, axis = 0) # column totals
 	
 	marginal_row = np.where(marginal_row==0, precision**2, marginal_row)
 	marginal_column = np.where(marginal_column==0, precision**2, marginal_column)
 
-
-	prior = (np.array([marginal_column]*n) * np.array([marginal_row] *n).T ) / np.sum(matrix) # initial Pij = (Ai. * A.j) / A.. where "." indicates sum over all respective indices
+	prior = pmatrix
 	np.fill_diagonal(prior, 0) # set diagonals to zero since self-loops are not allowed
 	
 	iteration = 0 # iteration counter
 	null = prior.copy()
+	null[null==0] = precision
+	
 	while iteration < max_iteration:
-		
 		# row scaling
 		row_scaler = marginal_row / np.sum(null, axis=1)
 		null = null * np.array([row_scaler]*n).T
-		
+
 		# column scaling
 		column_scaler = marginal_column / np.sum(null, axis=0)
 		null = null * np.array([column_scaler]*n)
@@ -265,6 +270,4 @@ def __getNullMatrix(matrix, max_iteration, precision):
 	print('Iterative Fitting Procedure ended at iteration {} with Mean Absolute Error (MAE) {} for row totals and MAE {} for column totals.'.format(iteration, MAE_row, MAE_column))
 		
 	return null
-	
-	
 	

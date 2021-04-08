@@ -1,0 +1,329 @@
+source,target,sign
+Bluehead Wrasse,American Eel,-1
+Carribean Spiny Lobster,American Eel,-1
+Florida Gar,American Eel,1
+French Angelfish,American Eel,-1
+French Grunt,American Eel,-1
+Gray Snapper,American Eel,1
+Gulf Flounder,American Eel,1
+Hogfish,American Eel,-1
+Jolthead Porgy,American Eel,-1
+Ladyfish,American Eel,1
+Long-Spined Sea Urchin,American Eel,-1
+Mangrove Species Rivulus,American Eel,1
+Oyster Toadfish,American Eel,1
+Queen Conch,American Eel,-1
+Queen Triggerfish,American Eel,-1
+Sheepshead,American Eel,1
+King Mackerel,Atlantic Sailfish,1
+Atlantic Sailfish,Bar Jack,1
+Black Grouper,Barred Hamlet,1
+Dusky Squirrelfish,Barred Hamlet,1
+Long-Spined Sea Urchin,Barred Hamlet,1
+Longsnout Bufferflyfish,Barred Hamlet,1
+Sergeant Major,Barred Hamlet,1
+Spanish Spotted Lobster,Barred Hamlet,1
+Long-Spined Sea Urchin,Black Grouper,1
+Longsnout Bufferflyfish,Black Grouper,1
+Red Drum,Black Grouper,-1
+Sergeant Major,Black Grouper,1
+Spanish Spotted Lobster,Black Grouper,1
+Barred Hamlet,Black Margate,1
+Black Grouper,Black Margate,1
+Carribean Spiny Lobster,Black Margate,1
+Dusky Squirrelfish,Black Margate,1
+Long-Spined Sea Urchin,Black Margate,1
+Longsnout Bufferflyfish,Black Margate,1
+Sergeant Major,Black Margate,1
+Spanish Spotted Lobster,Black Margate,1
+Florida Pompano,Black Tip Shark,1
+Black Grouper,Bluehead Wrasse,1
+Carribean Reef Squid,Bluehead Wrasse,1
+French Grunt,Bluehead Wrasse,1
+Green Moray,Bluehead Wrasse,1
+Longsnout Bufferflyfish,Bluehead Wrasse,1
+Queen Conch,Bluehead Wrasse,1
+Queen Triggerfish,Bluehead Wrasse,1
+Reef Croaker,Bluehead Wrasse,1
+Spanish Spotted Lobster,Bluehead Wrasse,1
+American Eel,Bonefish,1
+Brown Shrimp,Bonefish,1
+Bucktooth (Emerald) Parrotfish,Bonefish,1
+Gulf Flounder,Bonefish,1
+Pink Shrimp,Bonefish,1
+Spanish Sardine,Bonefish,1
+American Eel,Brown Shrimp,1
+Bucktooth (Emerald) Parrotfish,Brown Shrimp,1
+French Angelfish,Brown Shrimp,-1
+Gulf Flounder,Brown Shrimp,1
+Ladyfish,Brown Shrimp,1
+Oyster Toadfish,Brown Shrimp,1
+Sheepshead,Brown Shrimp,1
+Green Moray,Carribean Reef Squid,1
+Queen Conch,Carribean Reef Squid,1
+Queen Triggerfish,Carribean Reef Squid,1
+Atlantic Sailfish,Carribean Spiny Lobster,1
+Florida Stone Crab,Carribean Spiny Lobster,1
+Longsnout Bufferflyfish,Carribean Spiny Lobster,1
+Queen Conch,Carribean Spiny Lobster,1
+Sergeant Major,Carribean Spiny Lobster,1
+Spanish Spotted Lobster,Carribean Spiny Lobster,1
+Barred Hamlet,Cero Mackerel,1
+Black Grouper,Cero Mackerel,1
+Black Margate,Cero Mackerel,1
+Bluehead Wrasse,Cero Mackerel,1
+Carribean Reef Squid,Cero Mackerel,1
+Dusky Squirrelfish,Cero Mackerel,1
+French Grunt,Cero Mackerel,1
+Green Moray,Cero Mackerel,1
+Longsnout Bufferflyfish,Cero Mackerel,1
+Queen Conch,Cero Mackerel,1
+Queen Triggerfish,Cero Mackerel,1
+Reef Croaker,Cero Mackerel,1
+Sergeant Major,Cero Mackerel,1
+Spanish Spotted Lobster,Cero Mackerel,1
+Atlantic Sailfish,Cobia,1
+Florida Pompano,Cobia,1
+King Mackerel,Cobia,1
+American Eel,Crevalle Jack,1
+Florida Gar,Crevalle Jack,1
+Black Grouper,Dusky Squirrelfish,1
+Longsnout Bufferflyfish,Dusky Squirrelfish,1
+Sergeant Major,Dusky Squirrelfish,1
+Sheepshead Minnow,Dusky Squirrelfish,-1
+Spanish Spotted Lobster,Dusky Squirrelfish,1
+Gray Snapper,Florida Gar,1
+King Mackerel,Florida Gar,-1
+Ladyfish,Florida Gar,1
+Long-Spined Sea Urchin,Florida Gar,-1
+Mangrove Species Rivulus,Florida Gar,1
+Oyster Toadfish,Florida Gar,1
+Queen Conch,Florida Gar,-1
+Queen Triggerfish,Florida Gar,-1
+Sheepshead,Florida Gar,1
+American Eel,Florida Pompano,1
+Bonefish,Florida Pompano,1
+Bucktooth (Emerald) Parrotfish,Florida Pompano,1
+Gulf Flounder,Florida Pompano,1
+Permit,Florida Pompano,1
+Spanish Sardine,Florida Pompano,1
+Queen Conch,Florida Stone Crab,1
+Sheepshead,Florida Stone Crab,1
+Barred Hamlet,French Angelfish,1
+Black Grouper,French Angelfish,1
+Black Margate,French Angelfish,1
+Bluehead Wrasse,French Angelfish,1
+Bonefish,French Angelfish,-1
+Carribean Reef Squid,French Angelfish,1
+Cero Mackerel,French Angelfish,1
+Dusky Squirrelfish,French Angelfish,1
+French Grunt,French Angelfish,1
+Green Moray,French Angelfish,1
+Longsnout Bufferflyfish,French Angelfish,1
+Pink Shrimp,French Angelfish,-1
+Queen Conch,French Angelfish,1
+Queen Triggerfish,French Angelfish,1
+Reef Croaker,French Angelfish,1
+Sergeant Major,French Angelfish,1
+Sheepshead Minnow,French Angelfish,-1
+Spanish Spotted Lobster,French Angelfish,1
+Striped Mullet,French Angelfish,-1
+Black Grouper,French Grunt,1
+Carribean Reef Squid,French Grunt,1
+Green Moray,French Grunt,1
+Long-Spined Sea Urchin,French Grunt,1
+Longsnout Bufferflyfish,French Grunt,1
+Queen Conch,French Grunt,1
+Queen Triggerfish,French Grunt,1
+Sergeant Major,French Grunt,1
+Carribean Spiny Lobster,Goliath Grouper,1
+Ladyfish,Goliath Grouper,1
+Mangrove Species Rivulus,Goliath Grouper,1
+Queen Conch,Goliath Grouper,1
+Snook,Goliath Grouper,1
+Spanish Spotted Lobster,Goliath Grouper,1
+Queen Conch,Green Moray,1
+Sheepshead Minnow,Green Moray,-1
+Striped Mullet,Green Moray,-1
+Barred Hamlet,Hogfish,1
+Black Grouper,Hogfish,1
+French Grunt,Hogfish,1
+Long-Spined Sea Urchin,Hogfish,1
+Longsnout Bufferflyfish,Hogfish,1
+Sergeant Major,Hogfish,1
+Spanish Spotted Lobster,Hogfish,1
+Bluehead Wrasse,Jolthead Porgy,1
+Bucktooth (Emerald) Parrotfish,Jolthead Porgy,1
+Hogfish,Jolthead Porgy,1
+Long-Spined Sea Urchin,Jolthead Porgy,1
+Mangrove Species Rivulus,King Mackerel,-1
+Oyster Toadfish,Ladyfish,1
+Black Tip Shark,Lemon Shark,1
+Mangrove Species Rivulus,Long-Spined Sea Urchin,-1
+Queen Conch,Long-Spined Sea Urchin,1
+Sheepshead Minnow,Long-Spined Sea Urchin,-1
+Long-Spined Sea Urchin,Longsnout Bufferflyfish,1
+Queen Conch,Longsnout Bufferflyfish,1
+Queen Triggerfish,Longsnout Bufferflyfish,1
+Red Drum,Longsnout Bufferflyfish,-1
+Sergeant Major,Longsnout Bufferflyfish,1
+Sheepshead Minnow,Longsnout Bufferflyfish,-1
+Striped Mullet,Longsnout Bufferflyfish,-1
+Gulf Flounder,Mangrove Species Rivulus,1
+Ladyfish,Mangrove Species Rivulus,1
+Oyster Toadfish,Mangrove Species Rivulus,1
+Queen Conch,Mangrove Species Rivulus,-1
+Queen Triggerfish,Mangrove Species Rivulus,-1
+American Eel,Pinfish,1
+Black Margate,Pinfish,-1
+Brown Shrimp,Pinfish,1
+Bucktooth (Emerald) Parrotfish,Pinfish,1
+Florida Gar,Pinfish,1
+French Angelfish,Pinfish,-1
+Gulf Flounder,Pinfish,1
+Ladyfish,Pinfish,1
+Mangrove Species Rivulus,Pinfish,1
+Pink Shrimp,Pinfish,1
+Red Drum,Pinfish,1
+Sheepshead,Pinfish,1
+Sheepshead Minnow,Pinfish,1
+Spotted Sea Trout,Pinfish,1
+Striped Mullet,Pinfish,1
+Tarpon,Pinfish,1
+Yellowfin Mojarra,Pinfish,1
+American Eel,Pink Shrimp,1
+Brown Shrimp,Pink Shrimp,1
+Bucktooth (Emerald) Parrotfish,Pink Shrimp,1
+Gulf Flounder,Pink Shrimp,1
+Ladyfish,Pink Shrimp,1
+Sheepshead Minnow,Queen Conch,-1
+Green Moray,Queen Triggerfish,1
+Long-Spined Sea Urchin,Queen Triggerfish,1
+Queen Conch,Queen Triggerfish,1
+Sheepshead Minnow,Queen Triggerfish,-1
+Striped Mullet,Queen Triggerfish,-1
+American Eel,Red Drum,1
+Black Margate,Red Drum,-1
+Bluehead Wrasse,Red Drum,-1
+Bonefish,Red Drum,1
+Brown Shrimp,Red Drum,1
+Cero Mackerel,Red Drum,-1
+Florida Gar,Red Drum,1
+Florida Pompano,Red Drum,1
+French Angelfish,Red Drum,-1
+Gulf Flounder,Red Drum,1
+Hogfish,Red Drum,-1
+Jolthead Porgy,Red Drum,-1
+Ladyfish,Red Drum,1
+Mangrove Species Rivulus,Red Drum,1
+Oyster Toadfish,Red Drum,1
+Pink Shrimp,Red Drum,1
+Sheepshead,Red Drum,1
+Sheepshead Minnow,Red Drum,1
+Spotted Sea Trout,Red Drum,1
+Striped Mullet,Red Drum,1
+Tarpon,Red Drum,1
+Yellowfin Mojarra,Red Drum,1
+Green Moray,Reef Croaker,1
+Queen Triggerfish,Reef Croaker,1
+Sergeant Major,Reef Croaker,1
+Long-Spined Sea Urchin,Sergeant Major,1
+Red Drum,Sergeant Major,-1
+Striped Mullet,Sergeant Major,-1
+Gulf Flounder,Sheepshead,1
+American Eel,Sheepshead Minnow,1
+Barred Hamlet,Sheepshead Minnow,-1
+Black Grouper,Sheepshead Minnow,-1
+Black Margate,Sheepshead Minnow,-1
+Bluehead Wrasse,Sheepshead Minnow,-1
+Cero Mackerel,Sheepshead Minnow,-1
+Florida Gar,Sheepshead Minnow,1
+French Grunt,Sheepshead Minnow,-1
+Gulf Flounder,Sheepshead Minnow,1
+Ladyfish,Sheepshead Minnow,1
+Mangrove Species Rivulus,Sheepshead Minnow,1
+Oyster Toadfish,Sheepshead Minnow,1
+Sheepshead,Sheepshead Minnow,1
+Spanish Spotted Lobster,Sheepshead Minnow,-1
+Tarpon,Sheepshead Minnow,1
+Yellowfin Mojarra,Sheepshead Minnow,1
+American Eel,Snook,1
+Florida Gar,Snook,1
+Ladyfish,Snook,1
+Mangrove Species Rivulus,Snook,1
+Oyster Toadfish,Snook,1
+Pinfish,Snook,1
+Red Drum,Snook,1
+Sheepshead,Snook,1
+Sheepshead Minnow,Snook,1
+Spotted Sea Trout,Snook,1
+Striped Mullet,Snook,1
+Tarpon,Snook,1
+Gulf Flounder,Spanish Sardine,1
+Longsnout Bufferflyfish,Spanish Spotted Lobster,1
+Queen Conch,Spanish Spotted Lobster,1
+Red Drum,Spanish Spotted Lobster,-1
+Reef Croaker,Spanish Spotted Lobster,1
+Sergeant Major,Spanish Spotted Lobster,1
+Spotted Sea Trout,Spanish Spotted Lobster,-1
+Striped Mullet,Spanish Spotted Lobster,-1
+American Eel,Spotted Sea Trout,1
+Bluehead Wrasse,Spotted Sea Trout,-1
+Bonefish,Spotted Sea Trout,1
+Brown Shrimp,Spotted Sea Trout,1
+Bucktooth (Emerald) Parrotfish,Spotted Sea Trout,1
+Cero Mackerel,Spotted Sea Trout,-1
+Crevalle Jack,Spotted Sea Trout,1
+Florida Gar,Spotted Sea Trout,1
+French Angelfish,Spotted Sea Trout,-1
+Gulf Flounder,Spotted Sea Trout,1
+Ladyfish,Spotted Sea Trout,1
+Mangrove Species Rivulus,Spotted Sea Trout,1
+Oyster Toadfish,Spotted Sea Trout,1
+Pink Shrimp,Spotted Sea Trout,1
+Sheepshead,Spotted Sea Trout,1
+Sheepshead Minnow,Spotted Sea Trout,1
+Tarpon,Spotted Sea Trout,1
+Atlantic Sailfish,Stoplight Parrotfish,1
+Carribean Reef Squid,Stoplight Parrotfish,1
+Tripletail,Stoplight Parrotfish,1
+American Eel,Striped Mullet,1
+Barred Hamlet,Striped Mullet,-1
+Black Grouper,Striped Mullet,-1
+Black Margate,Striped Mullet,-1
+Bluehead Wrasse,Striped Mullet,-1
+Bonefish,Striped Mullet,1
+Brown Shrimp,Striped Mullet,1
+Bucktooth (Emerald) Parrotfish,Striped Mullet,1
+Carribean Spiny Lobster,Striped Mullet,-1
+Cero Mackerel,Striped Mullet,-1
+Crevalle Jack,Striped Mullet,1
+Dusky Squirrelfish,Striped Mullet,-1
+Florida Gar,Striped Mullet,1
+French Grunt,Striped Mullet,-1
+Gray Snapper,Striped Mullet,1
+Gulf Flounder,Striped Mullet,1
+Hogfish,Striped Mullet,-1
+Ladyfish,Striped Mullet,1
+Mangrove Species Rivulus,Striped Mullet,1
+Oyster Toadfish,Striped Mullet,1
+Pink Shrimp,Striped Mullet,1
+Sheepshead,Striped Mullet,1
+Sheepshead Minnow,Striped Mullet,1
+Spotted Sea Trout,Striped Mullet,1
+Tarpon,Striped Mullet,1
+Yellowfin Mojarra,Striped Mullet,1
+American Eel,Tarpon,1
+Bonefish,Tarpon,1
+Crevalle Jack,Tarpon,1
+Florida Gar,Tarpon,1
+Florida Pompano,Tarpon,1
+Gulf Flounder,Tarpon,1
+Ladyfish,Tarpon,1
+Mangrove Species Rivulus,Tarpon,1
+Oyster Toadfish,Tarpon,1
+Atlantic Sailfish,Tripletail,1
+Peacock Flounder,Tripletail,1
+Ladyfish,Yellowfin Mojarra,1
+Mangrove Species Rivulus,Yellowfin Mojarra,1
+Stoplight Parrotfish,Yellowtail Snapper,1

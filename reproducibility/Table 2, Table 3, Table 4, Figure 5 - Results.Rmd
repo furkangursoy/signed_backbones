@@ -1,0 +1,152 @@
+---
+title: "Table 2, Table 3, Table 4, Figure 5"
+author: "Furkan Gursoy" 
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+
+
+#Install necessary packages for this demonstration
+```{r include=FALSE}
+#rtools needs to be installed: https://cran.r-project.org/bin/windows/Rtools/
+packageurl <- "https://cran.r-project.org/src/contrib/Archive/signnet/signnet_0.5.2.tar.gz"
+install.packages(packageurl, repos=NULL, type="source")
+
+install.packages("ggraph")
+install.packages("igraph")
+
+```
+
+
+#Load necessary packages
+```{r include=FALSE}
+library(igraph)
+library(signnet)
+library(ggraph)
+```
+
+
+
+#Function reciprocity calculations
+```{r}
+reciprocity_info <- function(g){
+  g_n <- delete_edges(g, E(g)[E(g)$sign == 1])
+  g_p <- delete_edges(g, E(g)[E(g)$sign == -1])
+  
+  print(paste("Number of edges: ",                      length(E(g))))
+  print(paste("Number of non-reciprocal edges: ",       length(E(g)) - reciprocity(g) * length(E(g))))
+  print(paste("# of positive edges reciprocated: ",     reciprocity(g_p) * length(E(g_p))))
+  print(paste("# of negative edges reciprocated: ",     reciprocity(g_n) * length(E(g_n))))
+  print(paste("# of positive-negative reciprocation: ", reciprocity(g) * length(E(g)) - (reciprocity(g_p) * length(E(g_p)) + reciprocity(g_n) * length(E(g_n))) ))
+}
+
+```
+
+
+
+#Function for structural balance calculations
+```{r}
+structuralbalance_info <- function(g){
+  
+  ppp = count_signed_triangles(g)[1]
+  ppn = count_signed_triangles(g)[2]
+  pnn = count_signed_triangles(g)[3]
+  nnn = count_signed_triangles(g)[4]
+
+  print("Triangle Counts")
+  print(count_signed_triangles(g))
+  print(paste("Structural Balance: ", (ppp + pnn)/(ppp+ppn+pnn+nnn)))
+  print(paste("Weak Structural Balance: ", (ppp + pnn + nnn)/(ppp+ppn+pnn+nnn)))
+}
+
+```
+
+
+#Create igraph objects from backbones
+```{r}
+migration  <- graph_from_data_frame(read.csv('migration_backbone.csv'),  directed = TRUE,  vertices = NULL)
+eurovision <- graph_from_data_frame(read.csv('eurovision_backbone.csv'), directed = TRUE,  vertices = NULL)
+contact    <- graph_from_data_frame(read.csv('contact_backbone.csv'),    directed = FALSE, vertices = NULL)
+species    <- graph_from_data_frame(read.csv('species_backbone.csv'),    directed = FALSE, vertices = NULL)
+```
+
+
+#Table 2 Data
+```{r}
+print("MIGRATION")
+reciprocity_info(migration)
+print("                 ")
+
+print("EUROVISION")
+reciprocity_info(eurovision)
+print("                 ")
+
+```
+
+#Convert directed networks to undirected networks
+```{r}
+migration_undirected <- as.undirected(migration, mode ="collapse", edge.attr.comb = "max")
+
+eurovision_undirected <- as.undirected(eurovision, mode ="collapse", edge.attr.comb = "sum")
+E(eurovision_undirected)$sign <- E(eurovision_undirected)$sign / 2
+eurovision_undirected <- delete_edges(eurovision_undirected, E(eurovision_undirected)[!(E(eurovision_undirected)$sign %in% c(-1, 1))])
+tmp_edge_list <- data.frame(cbind(get.edgelist(eurovision_undirected), E(eurovision_undirected)$sign))
+colnames(tmp_edge_list) <- c('source', 'target', 'sign')
+tmp_edge_list$sign <- as.numeric(tmp_edge_list$sign)
+eurovision_undirected <- graph_from_data_frame(tmp_edge_list, directed = FALSE,  vertices = NULL)
+
+```
+
+
+
+#Table 3 Data
+```{r}
+print("MIGRATION")
+structuralbalance_info(migration_undirected)
+print("                 ")
+
+print("EUROVISION")
+structuralbalance_info(eurovision_undirected)
+print("                 ")
+
+
+print("CONTACT")
+structuralbalance_info(contact)
+print("                 ")
+
+
+print("SPECIES")
+structuralbalance_info(species)
+print("                 ")
+
+
+```
+
+
+#Figure 5 and Table 4 Data
+```{r}
+set.seed(0)
+clu <- signed_blockmodel(migration_undirected, k = 20, alpha = 0.5, annealing = TRUE)
+ggblock(migration_undirected,clu$membership, show_blocks = TRUE, show_labels = TRUE, cols = c('#D62728', '#2CA02C')) + theme(text=element_text(size=6))
+
+
+set.seed(0)
+clu <- signed_blockmodel(eurovision_undirected, k = 6, alpha = 0.5, annealing = TRUE)
+ggblock(eurovision_undirected,clu$membership, show_block = TRUE, show_labels = TRUE, cols = c('#D62728', '#2CA02C')) + theme(text=element_text(size=6))
+
+
+set.seed(0)
+clu <- signed_blockmodel(contact, k = 6, alpha = 0.5, annealing = TRUE)
+ggblock(contact,clu$membership, show_blocks = TRUE, cols = c('#D62728', '#2CA02C')) + theme(text=element_text(size=6))
+
+
+set.seed(0)
+clu <- signed_blockmodel(species, k = 2,alpha = 0.5, annealing = TRUE)
+ggblock(species,clu$membership, show_blocks = TRUE, show_labels = TRUE, cols = c('#D62728', '#2CA02C')) + theme(text=element_text(size=7))
+
+
+```
+
+

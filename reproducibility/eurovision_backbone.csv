@@ -1,0 +1,381 @@
+source,target,sign
+Belgium,Austria,-1
+Bosnia and Herzegovina,Austria,1
+Croatia,Austria,1
+Estonia,Austria,1
+France,Austria,-1
+Germany,Austria,-1
+Iceland,Austria,1
+Ireland,Austria,-1
+Israel,Austria,-1
+Malta,Austria,-1
+Netherlands,Austria,1
+Norway,Austria,1
+Poland,Austria,-1
+Portugal,Austria,1
+Romania,Austria,-1
+Russia,Austria,-1
+Slovenia,Austria,1
+Spain,Austria,1
+Sweden,Austria,1
+Turkey,Austria,1
+Ukraine,Austria,-1
+United kingdom,Austria,1
+Bosnia and Herzegovina,Belgium,1
+Croatia,Belgium,-1
+Cyprus,Belgium,-1
+Estonia,Belgium,1
+France,Belgium,1
+Greece,Belgium,1
+Ireland,Belgium,1
+Israel,Belgium,1
+Latvia,Belgium,1
+Malta,Belgium,-1
+Netherlands,Belgium,1
+Norway,Belgium,-1
+Poland,Belgium,1
+Russia,Belgium,-1
+Slovenia,Belgium,-1
+Spain,Belgium,1
+Sweden,Belgium,-1
+Ukraine,Belgium,1
+Austria,Bosnia and Herzegovina,1
+Belgium,Bosnia and Herzegovina,-1
+Croatia,Bosnia and Herzegovina,1
+Cyprus,Bosnia and Herzegovina,-1
+Estonia,Bosnia and Herzegovina,-1
+France,Bosnia and Herzegovina,-1
+Germany,Bosnia and Herzegovina,-1
+Greece,Bosnia and Herzegovina,-1
+Iceland,Bosnia and Herzegovina,-1
+Ireland,Bosnia and Herzegovina,-1
+Israel,Bosnia and Herzegovina,-1
+Latvia,Bosnia and Herzegovina,-1
+Malta,Bosnia and Herzegovina,-1
+Netherlands,Bosnia and Herzegovina,-1
+Norway,Bosnia and Herzegovina,-1
+Poland,Bosnia and Herzegovina,-1
+Portugal,Bosnia and Herzegovina,-1
+Romania,Bosnia and Herzegovina,-1
+Russia,Bosnia and Herzegovina,-1
+Slovenia,Bosnia and Herzegovina,-1
+Spain,Bosnia and Herzegovina,-1
+Sweden,Bosnia and Herzegovina,-1
+Turkey,Bosnia and Herzegovina,1
+Ukraine,Bosnia and Herzegovina,-1
+United kingdom,Bosnia and Herzegovina,-1
+Austria,Croatia,1
+Belgium,Croatia,-1
+Bosnia and Herzegovina,Croatia,1
+Cyprus,Croatia,-1
+Estonia,Croatia,-1
+France,Croatia,-1
+Germany,Croatia,-1
+Iceland,Croatia,-1
+Ireland,Croatia,1
+Israel,Croatia,-1
+Latvia,Croatia,-1
+Malta,Croatia,-1
+Netherlands,Croatia,-1
+Norway,Croatia,-1
+Poland,Croatia,-1
+Portugal,Croatia,-1
+Romania,Croatia,-1
+Russia,Croatia,-1
+Slovenia,Croatia,1
+Spain,Croatia,-1
+Sweden,Croatia,-1
+Turkey,Croatia,1
+Ukraine,Croatia,-1
+United kingdom,Croatia,-1
+Greece,Cyprus,1
+Israel,Cyprus,1
+Malta,Cyprus,1
+Iceland,Estonia,1
+Ireland,Estonia,1
+Russia,Estonia,1
+United kingdom,Estonia,1
+Bosnia and Herzegovina,France,1
+Poland,France,1
+Portugal,France,1
+Romania,France,1
+Belgium,Germany,-1
+Bosnia and Herzegovina,Germany,-1
+Croatia,Germany,-1
+Cyprus,Germany,-1
+France,Germany,-1
+Greece,Germany,-1
+Iceland,Germany,1
+Ireland,Germany,1
+Israel,Germany,-1
+Malta,Germany,1
+Norway,Germany,-1
+Poland,Germany,1
+Portugal,Germany,-1
+Russia,Germany,1
+Slovenia,Germany,-1
+Spain,Germany,1
+Sweden,Germany,1
+Turkey,Germany,-1
+Ukraine,Germany,-1
+United kingdom,Germany,1
+Austria,Greece,-1
+Belgium,Greece,-1
+Bosnia and Herzegovina,Greece,-1
+Croatia,Greece,-1
+Cyprus,Greece,1
+Estonia,Greece,-1
+France,Greece,-1
+Germany,Greece,1
+Iceland,Greece,-1
+Israel,Greece,-1
+Latvia,Greece,-1
+Malta,Greece,-1
+Netherlands,Greece,-1
+Norway,Greece,-1
+Poland,Greece,-1
+Portugal,Greece,-1
+Romania,Greece,1
+Slovenia,Greece,-1
+Spain,Greece,-1
+Sweden,Greece,-1
+Turkey,Greece,1
+Ukraine,Greece,-1
+United kingdom,Greece,-1
+Austria,Iceland,-1
+Bosnia and Herzegovina,Iceland,-1
+Croatia,Iceland,1
+Cyprus,Iceland,1
+Estonia,Iceland,-1
+France,Iceland,-1
+Germany,Iceland,-1
+Greece,Iceland,-1
+Ireland,Iceland,1
+Israel,Iceland,-1
+Malta,Iceland,1
+Netherlands,Iceland,1
+Norway,Iceland,1
+Poland,Iceland,-1
+Portugal,Iceland,-1
+Romania,Iceland,-1
+Russia,Iceland,-1
+Slovenia,Iceland,1
+Spain,Iceland,-1
+Sweden,Iceland,1
+Turkey,Iceland,1
+United kingdom,Iceland,-1
+Austria,Ireland,-1
+Bosnia and Herzegovina,Ireland,-1
+Croatia,Ireland,1
+Cyprus,Ireland,1
+Estonia,Ireland,-1
+France,Ireland,-1
+Germany,Ireland,-1
+Greece,Ireland,-1
+Israel,Ireland,-1
+Malta,Ireland,1
+Netherlands,Ireland,-1
+Norway,Ireland,1
+Poland,Ireland,-1
+Portugal,Ireland,1
+Romania,Ireland,-1
+Russia,Ireland,-1
+Spain,Ireland,-1
+Sweden,Ireland,-1
+Turkey,Ireland,1
+United kingdom,Ireland,1
+France,Israel,1
+Greece,Israel,1
+Russia,Israel,1
+Estonia,Latvia,1
+Ireland,Malta,1
+Portugal,Malta,1
+Austria,Netherlands,-1
+Belgium,Netherlands,1
+Croatia,Netherlands,-1
+Cyprus,Netherlands,-1
+Estonia,Netherlands,-1
+France,Netherlands,-1
+Germany,Netherlands,-1
+Greece,Netherlands,-1
+Iceland,Netherlands,-1
+Ireland,Netherlands,1
+Latvia,Netherlands,-1
+Malta,Netherlands,1
+Norway,Netherlands,1
+Poland,Netherlands,-1
+Portugal,Netherlands,-1
+Romania,Netherlands,-1
+Russia,Netherlands,1
+Slovenia,Netherlands,-1
+Spain,Netherlands,-1
+Sweden,Netherlands,1
+Turkey,Netherlands,-1
+Ukraine,Netherlands,-1
+Austria,Norway,-1
+Bosnia and Herzegovina,Norway,-1
+Croatia,Norway,-1
+Cyprus,Norway,-1
+Estonia,Norway,1
+Germany,Norway,1
+Greece,Norway,-1
+Iceland,Norway,1
+Ireland,Norway,1
+Latvia,Norway,1
+Malta,Norway,1
+Netherlands,Norway,1
+Spain,Norway,-1
+Sweden,Norway,1
+Turkey,Norway,-1
+Ukraine,Norway,1
+United kingdom,Norway,1
+Austria,Poland,1
+Belgium,Poland,1
+Bosnia and Herzegovina,Poland,-1
+Croatia,Poland,-1
+Cyprus,Poland,-1
+France,Poland,1
+Germany,Poland,1
+Greece,Poland,1
+Iceland,Poland,-1
+Ireland,Poland,-1
+Israel,Poland,-1
+Latvia,Poland,1
+Malta,Poland,1
+Portugal,Poland,-1
+Russia,Poland,-1
+Slovenia,Poland,-1
+Spain,Poland,1
+Turkey,Poland,-1
+Ukraine,Poland,1
+France,Portugal,1
+Ireland,Portugal,1
+Spain,Portugal,1
+Ukraine,Portugal,1
+Austria,Romania,1
+Belgium,Romania,-1
+Bosnia and Herzegovina,Romania,1
+Croatia,Romania,-1
+Estonia,Romania,-1
+France,Romania,1
+Germany,Romania,1
+Greece,Romania,1
+Iceland,Romania,-1
+Ireland,Romania,-1
+Israel,Romania,1
+Latvia,Romania,-1
+Malta,Romania,-1
+Netherlands,Romania,-1
+Norway,Romania,-1
+Poland,Romania,1
+Portugal,Romania,-1
+Russia,Romania,1
+Slovenia,Romania,-1
+Spain,Romania,1
+Sweden,Romania,-1
+Turkey,Romania,-1
+Ukraine,Romania,1
+United kingdom,Romania,-1
+Bosnia and Herzegovina,Russia,-1
+Croatia,Russia,1
+Cyprus,Russia,1
+Estonia,Russia,1
+Greece,Russia,1
+Ireland,Russia,-1
+Israel,Russia,1
+Latvia,Russia,1
+Malta,Russia,-1
+Netherlands,Russia,-1
+Norway,Russia,-1
+Slovenia,Russia,1
+Sweden,Russia,-1
+Turkey,Russia,1
+Ukraine,Russia,1
+United kingdom,Russia,-1
+Bosnia and Herzegovina,Slovenia,1
+Croatia,Slovenia,1
+Austria,Spain,-1
+Belgium,Spain,1
+Bosnia and Herzegovina,Spain,-1
+Croatia,Spain,1
+Cyprus,Spain,1
+Estonia,Spain,-1
+France,Spain,-1
+Germany,Spain,-1
+Greece,Spain,1
+Iceland,Spain,1
+Ireland,Spain,-1
+Israel,Spain,1
+Latvia,Spain,-1
+Malta,Spain,-1
+Netherlands,Spain,1
+Norway,Spain,-1
+Poland,Spain,-1
+Portugal,Spain,1
+Romania,Spain,1
+Russia,Spain,1
+Slovenia,Spain,-1
+Ukraine,Spain,-1
+United kingdom,Spain,-1
+Bosnia and Herzegovina,Sweden,-1
+Croatia,Sweden,-1
+Cyprus,Sweden,-1
+Estonia,Sweden,1
+France,Sweden,-1
+Greece,Sweden,-1
+Ireland,Sweden,-1
+Latvia,Sweden,1
+Malta,Sweden,1
+Norway,Sweden,1
+Poland,Sweden,1
+Romania,Sweden,1
+Russia,Sweden,-1
+Slovenia,Sweden,1
+Spain,Sweden,1
+Turkey,Sweden,-1
+United kingdom,Sweden,1
+Austria,Turkey,1
+Belgium,Turkey,1
+Bosnia and Herzegovina,Turkey,1
+Croatia,Turkey,1
+Cyprus,Turkey,1
+Estonia,Turkey,-1
+France,Turkey,1
+Germany,Turkey,1
+Iceland,Turkey,-1
+Ireland,Turkey,-1
+Latvia,Turkey,-1
+Netherlands,Turkey,1
+Norway,Turkey,1
+Poland,Turkey,-1
+Portugal,Turkey,1
+Romania,Turkey,1
+Russia,Turkey,-1
+Slovenia,Turkey,1
+Spain,Turkey,-1
+Ukraine,Turkey,-1
+Austria,Ukraine,-1
+Belgium,Ukraine,-1
+Bosnia and Herzegovina,Ukraine,-1
+Croatia,Ukraine,-1
+Cyprus,Ukraine,-1
+Estonia,Ukraine,1
+France,Ukraine,-1
+Germany,Ukraine,-1
+Greece,Ukraine,-1
+Iceland,Ukraine,-1
+Ireland,Ukraine,-1
+Israel,Ukraine,1
+Latvia,Ukraine,1
+Malta,Ukraine,-1
+Netherlands,Ukraine,-1
+Norway,Ukraine,-1
+Poland,Ukraine,1
+Portugal,Ukraine,-1
+Romania,Ukraine,-1
+Russia,Ukraine,1
+Slovenia,Ukraine,-1
+Spain,Ukraine,-1
+Sweden,Ukraine,-1
+Turkey,Ukraine,-1
+United kingdom,Ukraine,-1
