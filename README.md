@@ -2,6 +2,9 @@
 
 This Python package provides tools to extract the signed backbones of intrinsically dense weighted networks.
 
+Its counterpart in R can be found at https://github.com/furkangursoy/signed.backbones.
+
+
 ## Dependecies
 
 1. [numpy](https://numpy.org/)
@@ -40,6 +43,8 @@ If you find this software useful in your work, please cite:
 Furkan Gursoy and Bertan Badur. ["Extracting the signed backbone of intrinsically dense weighted networks"](https://arxiv.org/abs/2012.05216).
 
 
+## Reproducibility
+The folder *reproducibility* contains Jupyter notebooks and R Markdown files that are used to create the figures and tables in the manuscript.
 
 ## Contributing
 
